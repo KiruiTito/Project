@@ -1,22 +1,14 @@
-import React from "react"
-import AboutCard from "../about/AboutCard"
-import Hblog from "./Hblog"
-import HAbout from "./HAbout"
-import Hero from "./hero/Hero"
-import Hprice from "./Hprice"
-import Testimonal from "./testimonal/Testimonal"
+// Home.jsx
+import React from "react";
+import SchoolsTable from "../allschools/SchoolsTable"; // Import the SchoolsTable component
 
 const Home = () => {
   return (
-    <>
-      <Hero />
-      <AboutCard />
-      <HAbout />
-      <Testimonal />
-      <Hblog />
-      <Hprice />
-    </>
-  )
-}
+    <div className="container">
+      <h1>Schools</h1>
+      <SchoolsTable /> {/* Use the SchoolsTable component here */}
+    </div>
+  );
+};
 
-export default Home
+export default Home;
