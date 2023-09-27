@@ -1,0 +1,72 @@
+/* Add a class to the container to style it as a table */
+.table-container {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px; /* Add margin for spacing */
+}
+
+/* Style for table headers */
+.table-container .table-header {
+  display: table-header-group;
+  background-color: #1eb2a6;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Style for table rows */
+.table-container .table-row {
+  display: table-row;
+}
+
+/* Style for table cells (td) */
+.table-container .table-cell {
+  display: table-cell;
+  padding: 10px;
+  border-bottom: 1px solid #ddd; /* Add a bottom border for separation */
+}
+
+/* Add specific styles to the ID, Name, Location, Sublocation, and Address cells */
+.table-container .table-cell.id {
+  width: 5%; /* Adjust the width as needed */
+  text-align: center;
+}
+
+.table-container .table-cell.name {
+  width: 20%; /* Adjust the width as needed */
+}
+
+.table-container .table-cell.location {
+  width: 20%; /* Adjust the width as needed */
+}
+
+.table-container .table-cell.sublocation {
+  width: 20%; /* Adjust the width as needed */
+}
+
+.table-container .table-cell.address {
+  width: 35%; /* Adjust the width as needed */
+}
+
+/* Add hover effect for rows (optional) */
+.table-container .table-row:hover {
+  background-color: #f8f8f8;
+}
+/* Add this CSS to your existing CSS file or create a new one */
+.schools-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.schools-table th, .schools-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.schools-table th {
+  background-color: #1eb2a6;
+  color: white;
+  font-weight: bold;
+}
