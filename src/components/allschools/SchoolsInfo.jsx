@@ -2,7 +2,8 @@
 import React, { useState } from "react";
 import schoolsData from "../../dummydata";
 import SchoolsTable from "./SchoolsTable"; // Import the SchoolsTable component
-import SchoolsSearch from "./SchoolsSearch"; // Import the SchoolsSearch component
+import SchoolSearch from "./SchoolSearch"; // Corrected import statement
+
 
 const SchoolsInfo = () => {
   const [filteredSchools, setFilteredSchools] = useState(schoolsData);
@@ -24,7 +25,7 @@ const SchoolsInfo = () => {
   return (
     <div>
       <h1>Schools Information</h1>
-      <SchoolsSearch onSearch={handleSearch} />
+      <SchoolSearch onSearch={handleSearch} />
       <SchoolsTable schools={filteredSchools} />
     </div>
   );
