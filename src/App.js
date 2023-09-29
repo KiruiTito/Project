@@ -1,17 +1,14 @@
-import React from "react";
-import "./App.css";
-import Header from "./components/header/Header";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import About from "./components/about/About";
-import CourseHome from "./components/allschools/SchoolsHome";
-import Team from "./components/team/Team";
-import Pricing from "./components/pricing/Pricing";
-import Blog from "./components/blog/Blog";
-import Contact from "./components/contact/Contact";
-import Footer from "./components/common/footer/Footer";
-import Home from "./components/home/Home";
-import SchoolsInfo from "./components/allschools/SchoolsInfo"; // Import the SchoolsInfo component
-
+import "./App.css"
+import Header from "./components/common/heading/Heading"
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import About from "./components/about/About"
+import CourseHome from "./components/allschools/SchoolsHome"
+import Team from "./components/team/Team"
+import Pricing from "./components/pricing/Pricing"
+import Blog from "./components/blog/Blog"
+import Contact from "./components/contact/Contact"
+import Footer from "./components/common/footer/Footer"
+import Home from "./components/home/Home"
 function App() {
   return (
     <>
@@ -25,13 +22,11 @@ function App() {
           <Route exact path='/pricing' component={Pricing} />
           <Route exact path='/journal' component={Blog} />
           <Route exact path='/contact' component={Contact} />
-          {/* Add a new route for SchoolsInfo */}
-          <Route exact path='/schools' component={SchoolsInfo} />
         </Switch>
         <Footer />
       </Router>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
