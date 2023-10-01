@@ -9,13 +9,26 @@ import Blog from "./components/blog/Blog"
 import Contact from "./components/contact/Contact"
 import Footer from "./components/common/footer/Footer"
 import Home from "./components/home/Home"
+import { useEffect, useState } from "react"
 function App() {
+
+  const [schools, setSchools] = useState([])
+
+  useEffect(()=>{
+    fetch("http://localhost:4000/schools")
+    .then(res=>res.json())
+    .then(data=>setSchools(data))
+    .catch(err=>console.log(err))
+  })
+
   return (
     <>
       <Router>
         <Header />
         <Switch>
-          <Route exact path='/' component={Home} />
+          <Route exact path='/'>
+            <Home schools={schools}/>
+          </Route>
           <Route exact path='/about' component={About} />
           <Route exact path='/courses' component={CourseHome} />
           <Route exact path='/team' component={Team} />
