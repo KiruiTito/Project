@@ -1,4 +1,4 @@
-[
+{ "schools":[
   {
     "id": 1,
     "name": "MBAGATHI ROAD PRIMARY",
@@ -455,3 +455,4 @@
     "address": "MAMA LUCY KIBAKI HOSPITAL"
   }
 ]
+}

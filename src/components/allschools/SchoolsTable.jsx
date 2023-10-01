@@ -3,6 +3,7 @@ import './schools.css'
 
 const SchoolsTable = ({ schoolsData }) => {
 
+  const locations = ["DAGORETTI", "EMBAKASI", "KAMUKUNJI", "KASARANI", "LANG'ATA", "MAKADARA", "STAREHE", "WESTLANDS"]
   const [searchName, setNameSearch] = useState("")
   const [searchLocation, setLocationSearch] = useState("")
 
@@ -14,7 +15,12 @@ const SchoolsTable = ({ schoolsData }) => {
         <div className="table-search ps-2 mb-4">
           <div className="row">
           <input type='text' placeholder="Filter using name of school" className="form-control col me-3" onChange={e=>setNameSearch(e.target.value)}/>
-          <input type='text' placeholder="Filter using location" className="form-control col" onChange={e=>setLocationSearch(e.target.value)}/>
+          <select className="form-select col" onChange={e=>setLocationSearch(e.target.value)} id="">
+            <option value="">All</option>
+            {locations.map(location=>
+              <option value={location}>{location}</option>
+            )}
+          </select>
           </div>
         </div>
         <table className="table table-striped table-hover">
