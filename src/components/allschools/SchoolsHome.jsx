@@ -1,12 +1,11 @@
 import React from "react";
-import SchoolsTable from "./SchoolsTable"; // Import the new table component
-import schoolsData from "../../dummydata";
+import SchoolsTable from "./SchoolsTable";
 
-const SchoolsHome = () => {
+const SchoolsHome = ({ schools }) => {
   return (
     <div className="container">
       <h1>Schools</h1>
-      <SchoolsTable schoolsData={schoolsData} /> {/* Render the table component */}
+      <SchoolsTable schoolsData={schools} /> {/* Render the table component with the fetched data */}
     </div>
   );
 };

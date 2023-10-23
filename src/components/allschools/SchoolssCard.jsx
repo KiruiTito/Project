@@ -290,8 +290,311 @@ const SchoolsCard = () => {
       "location": "EMBAKASI",
       "sub_location": "KAYOLE",
       "address": "MUKURU KWA NJENGA"
-    }
-  ];
+    },
+    {
+      "id": 43,
+      "name": "MAUA PRIMARY",
+      "location": "EMBAKASI",
+      "sub_location": "KAYOLE",
+      "address": "KANGUNDO ROAD - NJIRU COKAA BURUBURU FARM"
+    },
+    {
+      "id": 44,
+      "name": "VISIONS PRIMARY (MIHANG'O)",
+      "location": "EMBAKASI",
+      "sub_location": "KAYOLE",
+      "address": "MIHANG'O LOCATION"
+    },
+    {
+      "id": 45,
+      "name": "EMBAKASI GARRISON PRIMARY",
+      "location": "EMBAKASI",
+      "sub_location": "KAYOLE",
+      "address": "EMBAKASI GARRISON BARRACKS COMPUND ALONG TO UTAWALA"
+    },
+    {
+      "id": 46,
+      "name": "MWANGAZA PRIMARY",
+      "location": "EMBAKASI",
+      "sub_location": "KAYOLE",
+      "address": "KAYOLE"
+    },
+    {
+      "id": 47,
+      "name": "EMBAKASI PRIMARY",
+      "location": "EMBAKASI",
+      "sub_location": "KAYOLE",
+      "address": "EMBAKASI VILLAGE"
+    },
+    {
+      "id": 48,
+      "name": "THAWABU PRIMARY",
+      "location": "EMBAKASI",
+      "sub_location": "KAYOLE",
+      "address": "KAYOLE"
+    },
+    {
+      "id": 49,
+      "name": "BONDENI PRIMARY",
+      "location": "EMBAKASI",
+      "sub_location": "KAYOLE",
+      "address": "KAYOLE SOUTH NEXT TO KAYOLE CATHOLIC CHURCH - (DIVEN WORD PARISH)"
+    },
+    {
+      "id": 50,
+      "name": "KOMAROCK PRIMARY",
+      "location": "EMBAKASI",
+      "sub_location": "KAYOLE",
+      "address": "KOMAROCK ESTATE OOF SPINE ROAD"
+    },
+    {
+      "id": 51,
+      "name": "KIFARU PRIMARY",
+      "location": "EMBAKASI",
+      "sub_location": "KAYOLE",
+      "address": "UMOJA II - MOI DRIVE"
+    },
+    {
+      "id": 52,
+      "name": "EDELVALE PRIMARY",
+      "location": "EMBAKASI",
+      "sub_location": "KAYOLE",
+      "address": "DOONHOLM PHASE V AT JACARANDA ESTATE ROUND ABOUT - TAKE THE EARTH ROAD"
+    },
+    {
+      "id": 53,
+      "name": "IMARA PRIMARY",
+      "location": "EMBAKASI",
+      "sub_location": "KAYOLE",
+      "address": "KAYOLE SOWETO RD. OPP. KAYOLE CHIEF'S OFFICE - MUGENDI STAGE"
+    },
+    {
+      "id": 54,
+      "name": "DOONHOLM PRIMARY",
+      "location": "EMBAKASI",
+      "sub_location": "KAYOLE",
+      "address": "DOONHOLM ESTATE NXT. TO RIKINA SUPERMARKETS"
+    },
+    {
+      "id": 55,
+      "name": "BUSARA PRIMARY",
+      "location": "EMBAKASI",
+      "sub_location": "DANDORA",
+      "address": "UMOJA ESTATE - MOI DRIVE ROAD"
+    },
+    {
+      "id": 56,
+      "name": "A.E.F. REUBEN PRIMARY",
+      "location": "EMBAKASI",
+      "sub_location": "KAYOLE",
+      "address": "OFF INTERPRISE AFTER HILL-LOCKS HOTEL IN REUBEN SLUMS"
+    },
+    {
+      "id": 57,
+      "name": "KWA NJENGA PRIMARY",
+      "location": "EMBAKASI",
+      "sub_location": "KAYOLE",
+      "address": "KWA NJENGA WARD OFF AIRPORT ROAD AT A.A. OF KENYA HEADQUARTERS"
+    },
+    {
+      "id": 58,
+      "name": "DANDORA PRIMARY SCHOOL",
+      "location": "EMBAKASI",
+      "sub_location": "DANDORA",
+      "address": "DANDORA PHASE ONE, ALONG KOMAROCK RD. OPP. SENIORS SCH, ADJACENT TO TOTAL PETROL STATION"
+    },
+    {
+      "id": 59,
+      "name": "SIMBA DAY NURSERY",
+      "location": "EMBAKASI",
+      "sub_location": "KAYOLE",
+      "address": "UMOJA"
+    },
+    {
+      "id": 60,
+      "name": "MUGUMO DAY NURSERY",
+      "location": "EMBAKASI",
+      "sub_location": "KAYOLE",
+      "address": "NEAR PETER KIBUKOSYA PRIMARY SCHOOL"
+    },
+    {
+      "id": 61,
+      "name": "MWANGAZA DAY NURSERY",
+      "location": "EMBAKASI",
+      "sub_location": "KAYOLE",
+      "address": "NEAR PETER KIBUKOSYA PRIMARY SCHOOL"
+    },
+    {
+      "id": 62,
+      "name": "UNITY DAY NURSERY",
+      "location": "EMBAKASI",
+      "sub_location": "KAYOLE",
+      "address": "UMOJA INNERCORE"
+    },
+    {
+      "id": 63,
+      "name": "UMOJA I DAY NURSERY",
+      "location": "EMBAKASI",
+      "sub_location": "DANDORA",
+      "address": "IN UMOJA NEXT TO DIVISON OFFICE UMOJA I ESATE"
+    },
+    {
+      "id": 64,
+      "name": "ST. DOMINIC'S PRIMARY SCHOOL",
+      "location": "EMBAKASI",
+      "sub_location": "DANDORA",
+      "address": "MWIKI"
+    },
+    {
+      "id": 65,
+      "name": "KAYOLE NORTH PRIMARY",
+      "location": "EMBAKASI",
+      "sub_location": "DANDORA",
+      "address": "KAYOLE NORTH (MATOPENI) AREA NEAR KAYOLE POLICE STATION"
+    },
+    {
+      "id": 66,
+      "name": "KANGUNDO ROAD PRY",
+      "location": "EMBAKASI",
+      "sub_location": "DANDORA",
+      "address": "MAMA LUCY KIBAKI HOSPITAL"
+    },
+    {
+      "name": "JAMES GICHURU PRIMARY",
+      "subcounty": "EMBAKASI",
+      "location": "DANDORA",
+      "description": "DANDORA PHASE II"
+    },
+    {
+      "name": "WANGU PRIMARY",
+      "subcounty": "EMBAKASI",
+      "location": "DANDORA",
+      "description": "DANDORA PHASE II OPPOSITE CO-OPERATIVE BANK ON MUIGAI KENYATTA ROAD"
+    },
+    {
+      "name": "DRUMVALE PRIMARY",
+      "subcounty": "EMBAKASI",
+      "location": "DANDORA",
+      "description": "KAMULU OFF KANGUNDO ROAD, SIR HENRY'S DRIVE - PEARL STREET(Drumvale)"
+    },
+    {
+      "name": "NJIRU PRIMARY",
+      "subcounty": "EMBAKASI",
+      "location": "DANDORA",
+      "description": "ON YOUR WAY TO MWIKI BETWEEN NJIRU CHIEF'S CAMP / D.Os OFFICE AND QUARRY"
+    },
+    {
+      "name": "EASTLEIGH AIRPORT PRIMARY",
+      "subcounty": "KAMUKUNJI",
+      "location": "EASTLEIGH",
+      "description": "2ND AVENUE OFF 3RD ST. NEXT TO MAINA WANJIGI SECONDARY"
+    },
+    {
+      "name": "MUTHURWA PRIMARY",
+      "subcounty": "KAMUKUNJI",
+      "location": "BAHATI",
+      "description": "ALONG SAKWA RD. NEXT TO KMC"
+    },
+    {
+      "name": "UHURU ESTATE PRIMARY",
+      "subcounty": "KAMUKUNJI",
+      "location": "BAHATI",
+      "description": "UHURU ESTATE ON UHURU RD. NEXT TO UHURU SECONDARY"
+    },
+    {
+      "name": "HESHIMA ROAD PRIMARY",
+      "subcounty": "KAMUKUNJI",
+      "location": "BAHATI",
+      "description": "AMBIRA ROAD - MAKONGENI"
+    },
+    {
+      "name": "OUR LADY OF MERCY GIRLS - SHAURI MOYO",
+      "subcounty": "KAMUKUNJI",
+      "location": "BAHATI",
+      "description": "AMBIRA RD. OFF JOGOO ROAD"
+    },
+    {
+      "name": "BAHATI UHURU PRIMARY",
+      "subcounty": "KAMUKUNJI",
+      "location": "BAHATI",
+      "description": "HESHIMA AVENUE ZEMBAKASI CRESENT, ZEMBAKASI LANE"
+    },
+    {
+      "name": "KIMATHI PRIMARY",
+      "subcounty": "KAMUKUNJI",
+      "location": "BAHATI",
+      "description": "KIMATHI ESTATE"
+    },
+    {
+      "name": "MORRISON PRIMARY",
+      "subcounty": "KAMUKUNJI",
+      "location": "BAHATI",
+      "description": "BAHATI"
+    },
+    {
+      "name": "DR. LIVINGSTONE PRIMARY",
+      "subcounty": "KAMUKUNJI",
+      "location": "BAHATI",
+      "description": "JERUSALEM ESTATE"
+    },
+    {
+      "name": "NAIROBI RIVER PRIMARY",
+      "subcounty": "KAMUKUNJI",
+      "location": "BAHATI",
+      "description": "OUTERING RD. ESTATE OFF MUMIA SOUTH RD."
+    },
+    {
+      "name": "NEW EASTLEIGH PRIMARY",
+      "subcounty": "KAMUKUNJI",
+      "location": "EASTLEIGH",
+      "description": "EASTLEIGH NORTH"
+    },
+    {
+      "name": "ZAWADI PRIMARY",
+      "subcounty": "KAMUKUNJI",
+      "location": "EASTLEIGH",
+      "description": "EASTLEIGH SECTION 3 NEAR EASTMAT No. 4 BUS STAGE"
+    },
+    {
+      "name": "MOI AIR BASE PRIMARY",
+      "subcounty": "KAMUKUNJI",
+      "location": "EASTLEIGH",
+      "description": "KENYA AIR FORCE EASTLEIGH - NAIROBI"
+    },
+    {
+      "name": "MOI FORCES ACADEMY",
+      "subcounty": "KAMUKUNJI",
+      "location": "EASTLEIGH",
+      "description": "NEXT TO MOI AIR BASE - JUJA ROAD"
+    },
+    {
+      "name": "ST. TERESA'S BOYS PRIMARY SCHOOL",
+      "subcounty": "KAMUKUNJI",
+      "location": "EASTLEIGH",
+      "description": "EASTLEIGH SECTION I WITHIN THE CATHOLIC CHURCH NEAR MLANGO KUBWA"
+    },
+    {
+      "name": "BAHATI DAY NURSERY",
+      "subcounty": "KAMUKUNJI",
+      "location": "BAHATI",
+      "description": "AT BAHATI SHOPPING CENTRE NEXT TO UHURU BAHATI PRIMARY SCHOOL"
+    },
+    {
+      "name": "NEW PUMWANNI PRIMARY",
+      "subcounty": "KAMUKUNJI",
+      "location": "EASTLEIGH",
+      "description": "FROM RING ROAD NGARA CONNECT TO KINYANJUI ROAD - SCHOOL IS BEFORE THE KARIOKOR WWII COMMONWEALTH CEMETARY"
+    },
+    {
+      "name": "BURUBURU I PRIMARY",
+      "subcounty": "KAMUKUNJI",
+      "location": "BURUBURU",
+      "description": "BURUBURU PHASE I OFF MUMIAS ROAD NEXT TO ORANGE HOUSE"
+    },
+  
+  ]
+  
+  
   
   
     // Add more school objects as needed
