@@ -16,7 +16,7 @@ function App() {
     <>
       <Router>
         <Switch>
-          <Route exact path="/schools">
+          <Route exact path="/">
             <SchoolsHome schools={schools} /> {/* Pass the fetched data as a prop */}
           </Route>
         </Switch>
