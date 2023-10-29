@@ -1,17 +1,19 @@
-thead{
-  background-color: rgb(30,178,166);
+.thead {
+  background-color: rgb(30, 178, 166);
   color: rgb(234, 234, 234);
+  text-align: center; /* Center text horizontally */
+  padding: 10px 0; /* Add padding to center text vertically */
 }
 
-.tr-head{
+.tr-head {
   height: 65px;
 }
 
-.tr-head th{
+.tr-head th {
   padding-bottom: 5px;
   font-size: 17px;
 }
 
-.table-data-row{
+.table-data-row {
   height: 60px;
 }

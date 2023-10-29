@@ -34,15 +34,16 @@ const SchoolsTable = ({ schoolsData }) => {
             </tr>
           </thead>
           <tbody>
-            {filteredSchoolData.map((school) => (
-            <tr className="table-data-row" key={school.id}>
-              <th scope="row">{school.id}</th>
-              <td>{school.name}</td>
-              <td>{school.location}</td>
-              <td>{school.sub_location}</td>
-              <td>{school.address}</td>
-            </tr>
-            ))}
+          {filteredSchoolData.map((school) => (
+  <tr className="table-data-row" key={school.id}> {/* Add the 'key' prop here */}
+    <th scope="row">{school.id}</th>
+    <td>{school.name}</td>
+    <td>{school.location}</td>
+    <td>{school.sub_location}</td>
+    <td>{school.address}</td>
+  </tr>
+))}
+
           </tbody>
         </table>
       </div>
